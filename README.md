@@ -7,7 +7,7 @@
 - 本项目编译配置如下：
 
 **添加编译**（默认未勾选，自选！）
-  - [x] 修改架构适配斐讯 N1 盒子
+  - [x] 修改架构适配Arm盒子
     - [x] Target System —— QEMU ARM Virtual Machine
     - [x] Subtarget —— 64-bit ARM machines
   - [x] `luci-app-docker`
