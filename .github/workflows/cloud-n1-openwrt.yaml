@@ -1,4 +1,4 @@
-name: Cloud N1 OpenWrt
+name: Cloud vplus OpenWrt
 
 on:
   push:
@@ -120,9 +120,9 @@ jobs:
       uses: ophub/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
-        PACKAGE_SOC: s905d
+        PACKAGE_SOC: h6
         KERNEL_VERSION_NAME: ${{ env.KERNEL_VERSION }}
-        WHOAMI: huangqian8
+        WHOAMI: gdstchdr
 
     - name: Organize files
       id: organize
@@ -157,7 +157,7 @@ jobs:
           刷机固件简介：
             打包日期：${{ env.PACKAGED_OUTPUTDATE }}
             内核版本：${{ env.KERNEL_VERSION }}
-            默认IP：192.168.1.1 默认用户名密码： root/password
+            默认IP：192.168.5.8 默认用户名密码： root/password
         artifacts: "${{ env.FIRMWARE }}/*.*,${{ env.PACKAGED_OUTPUTPATH }}/*.*"
 
     - name: Remove old Releases
