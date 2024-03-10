@@ -7,12 +7,12 @@ mv -f package-temp/luci-app-adguardhome package/lean/
 rm -rf package-temp
 
 # Add luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall/tree/main/luci-app-passwall.git package-temp/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package-temp/luci-app-passwall
 mv -f package-temp/luci-app-passwall package/lean/
 rm -rf package-temp
 
 # Add luci-app-passwall2
-git clone https://github.com/xiaorouji/openwrt-passwall2/tree/main/luci-app-passwall2.git package-temp/luci-app-passwall2
+git clone https://github.com/xiaorouji/openwrt-passwall2.git package-temp/luci-app-passwall2
 mv -f package-temp/luci-app-passwall2 package/lean/
 rm -rf package-temp
 
