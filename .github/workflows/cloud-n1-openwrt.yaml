@@ -16,6 +16,7 @@ env:
   REPO_BRANCH: master
   SCRIPT_SH: script.sh
   CONFIG_SH: config.sh
+  FEEDS_CONF: feeds.conf.default
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
   KERNEL_VERSION: 6.1.79
