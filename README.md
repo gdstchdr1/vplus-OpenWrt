@@ -6,8 +6,8 @@
 - 本项目编译固件适配 vplus 盒子，如需刷机，可直接下载 [releases](https://github.com/gdstchdr1/vplus-OpenWrt/releases/latest) 内固件。
 - 本项目编译配置如下：
 
-**添加编译**（默认未勾选，自选！）  
-  - [x] 修改架构适配Arm盒子
+**添加编译**（默认未勾选，自选！）
+- [x] 修改架构适配Arm盒子
     - [x] Target System —— QEMU ARM Virtual Machine
     - [x] Subtarget —— 64-bit ARM machines
   - [x] `luci-app-docker`
